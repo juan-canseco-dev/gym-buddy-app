@@ -2,7 +2,6 @@ package jcanseco.dev.gymbuddy
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.viewModels
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import jcanseco.dev.gymbuddy.router.RouterState
@@ -33,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         state.let {
             when (it) {
                 is RouterState.UserAuthenticated -> {
-                    Log.d("TAG1", "User Authenticated")
+
                 }
                 is RouterState.UserAuthenticatedWithProfileIncomplete -> {
 

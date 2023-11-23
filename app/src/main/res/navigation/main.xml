@@ -8,5 +8,39 @@
         android:id="@+id/dummyStartFragment"
         android:name="jcanseco.dev.gymbuddy.DummyStartFragment"
         android:label="fragment_dummy_start"
-        tools:layout="@layout/fragment_dummy_start" />
+        tools:layout="@layout/fragment_dummy_start" >
+        <action
+            android:id="@+id/action_dummyStartFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_dummyStartFragment_to_onboardingFragment"
+            app:destination="@id/onboardingFragment" />
+        <action
+            android:id="@+id/action_dummyStartFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="jcanseco.dev.gymbuddy.signin.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="jcanseco.dev.gymbuddy.onboarding.OnboardingFragment"
+        android:label="fragment_onboarding"
+        tools:layout="@layout/fragment_onboarding" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="jcanseco.dev.gymbuddy.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="jcanseco.dev.gymbuddy.signup.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
 </navigation>

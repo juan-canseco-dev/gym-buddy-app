@@ -1,4 +1,4 @@
-package jcanseco.dev.gymbuddy
+package jcanseco.dev.gymbuddy.common
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

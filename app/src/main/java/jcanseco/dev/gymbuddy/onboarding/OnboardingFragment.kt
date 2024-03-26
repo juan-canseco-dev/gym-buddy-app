@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import jcanseco.dev.gymbuddy.databinding.FragmentOnboardingBinding
 
 class OnboardingFragment : Fragment() {
+
     private var _binding : FragmentOnboardingBinding? = null
     private val binding get() = _binding!!
     override fun onCreateView(

@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Gym Buddy</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="sign_in_label">Sign In</string>
+    <string name="do_you_have_account_label">Do you have account?</string>
+    <string name="sign_up_label">Sign Up</string>
 </resources>
